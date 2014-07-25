@@ -65,8 +65,8 @@ namespace Checkpoints
     }
 
     // arcoin: synchronized checkpoint (centrally broadcasted)
-    uint256 hashSyncCheckpoint = 0;
-    uint256 hashPendingCheckpoint = 0;
+    uint256 hashSyncCheckpoint = uint256("0xef2ed8bc06a57225b69aec06b17a7bbb46ec8f80452660f21c296505928218b8");
+    uint256 hashPendingCheckpoint = uint256("0xef2ed8bc06a57225b69aec06b17a7bbb46ec8f80452660f21c296505928218b8");
     CSyncCheckpoint checkpointMessage;
     CSyncCheckpoint checkpointMessagePending;
     uint256 hashInvalidCheckpoint = 0;
