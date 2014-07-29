@@ -26,7 +26,8 @@ namespace Checkpoints
         boost::assign::map_list_of
         (     0, hashGenesisBlockOfficial )
         (  3294, uint256("0x67b77cac40115f6357c0ac7045943474f881ffbd4df5762498f6cdd79708389c"))
-        (  4600, uint256("0xef2ed8bc06a57225b69aec06b17a7bbb46ec8f80452660f21c296505928218b8"))
+		(  4980, uint256("0xe9134bf74b348cdc1efc99e447d3374607f04896f037e9532c1090b33cb3ee14"))
+		(  4981, uint256("0x9ea86c210f575173a601c85c9fb1fe5d625b11ced929b734b8d8293845b32a31"))
 		;
 
     static MapCheckpoints mapCheckpointsTestnet =
@@ -65,8 +66,8 @@ namespace Checkpoints
     }
 
     // arcoin: synchronized checkpoint (centrally broadcasted)
-    uint256 hashSyncCheckpoint = uint256("0xef2ed8bc06a57225b69aec06b17a7bbb46ec8f80452660f21c296505928218b8");
-    uint256 hashPendingCheckpoint = uint256("0xef2ed8bc06a57225b69aec06b17a7bbb46ec8f80452660f21c296505928218b8");
+    uint256 hashSyncCheckpoint = uint256("0x9ea86c210f575173a601c85c9fb1fe5d625b11ced929b734b8d8293845b32a31");
+    uint256 hashPendingCheckpoint = uint256("0x9ea86c210f575173a601c85c9fb1fe5d625b11ced929b734b8d8293845b32a31");
     CSyncCheckpoint checkpointMessage;
     CSyncCheckpoint checkpointMessagePending;
     uint256 hashInvalidCheckpoint = 0;

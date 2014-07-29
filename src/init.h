@@ -15,4 +15,7 @@ void Shutdown(void* parg);
 bool AppInit2();
 std::string HelpMessage();
 
+// Random Unsed Port for tor
+unsigned short const TORPORT = 19283;
+
 #endif

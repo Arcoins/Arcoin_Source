@@ -523,7 +523,7 @@ bool AppInit2()
 
     CService addrOnion;
     // need to move onion_port to a header
-    unsigned short const onion_port = 19283;
+    unsigned short onion_port = TORPORT;
 
     if (mapArgs.count("-tor") && mapArgs["-tor"] != "0") {
         addrOnion = CService(mapArgs["-tor"], onion_port);
